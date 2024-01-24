@@ -1,0 +1,16 @@
+* {
+    margin: 0px; padding: 0px;
+}
+
+#contenedor {
+    background-color: #fff8f0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.encabezado{
+    background-image: url(../imgs/guesteaus.png);
+    background-size: cover;
+    color: #5a3e36;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
