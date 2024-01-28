@@ -81,3 +81,62 @@ div.pie{
     color:#ecdcc6;
     padding-right: 15px;
 }
+
+label {
+    font-size: 16px;
+    display: block;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+input[type='number'],
+input[type='date'],
+input[type='time'],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a77e58;
+    border-radius: 5px;
+    background-color: #fff8f0;
+}
+
+input[type='submit'] {
+    background-color: #5a3e36;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type='submit']:hover {
+    background-color: #a77e58;
+}
+
+/* mensajes de error */
+input:invalid,
+textarea:invalid {
+    border-color: #ff0000;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+    border-color: #ff0000;
+    outline: none;
+}
+
+input:invalid + span,
+textarea:invalid + span {
+    color: #ff0000;
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+input:invalid:focus + span,
+textarea:invalid:focus + span {
+    opacity: 1;
+}
