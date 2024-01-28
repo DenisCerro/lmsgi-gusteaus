@@ -28,6 +28,20 @@ div.menu ul li a{
     transition: background-color 0.3s ease;
 }
 
+
+div.menu ul {
+    color: #ffffff;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.menu a:hover {
+    color: #5a3e36;
+}
+
 div.contenido{
     background-color: #fff8f0;
     color: #5a3e36;
