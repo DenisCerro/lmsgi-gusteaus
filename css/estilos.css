@@ -114,7 +114,6 @@ input[type='submit']:hover {
     background-color: #a77e58;
 }
 
-/* mensajes de error */
 input:invalid,
 textarea:invalid {
     border-color: #ff0000;

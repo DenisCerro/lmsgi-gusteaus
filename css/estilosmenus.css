@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #a77e58;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.menu-estrella {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #a77e58;
+    border-bottom: 2px solid #a77e58;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+[data-alergenos] {
+    font-weight: bold;
+}
+
+[data-alergenos*="nueces"] {
+    color: #c00;
+}
+
+[data-alergenos*="mariscos"] {
+    color: #0066cc;
+}
+
+[data-alergenos*="huevo"] {
+    color: #b2b424;
+}
+
+[data-alergenos*="lactosa"] {
+    color: #626662;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+li:hover [data-alergenos] {
+    text-decoration: underline;
+}
