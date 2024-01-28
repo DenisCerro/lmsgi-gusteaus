@@ -10,12 +10,14 @@
 
 div.encabezado {
     background-image: url("../imgs/guesteaus.png");
-    background-position: 80% 180%;
-    color: #5a3e36;
+    background-size: cover;
+    color: #811d1d;
     font-family: 'Georgia', serif;
     font-size: 36px;
     text-align: center;
-    height: 200px;
+    height: 220px;
+    background-position: 80% 225%;
+    line-height: 5;
 }
 
 div.menu ul li a{
@@ -41,9 +43,14 @@ div.sidebar{
 }
 
 div.pie{
-    background-color: #a77e58;
-    color: #ffffff;
+    background-color: #5a3e36;
+    color: #ecdcc6;
     font-family: 'Helvetica', sans-serif;
     font-size: 16px;
     text-align: center;
+}
+
+.enlaces a{
+    color:#ecdcc6;
+    padding-right: 15px;
 }
