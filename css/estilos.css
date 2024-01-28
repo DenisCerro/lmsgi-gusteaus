@@ -7,10 +7,43 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
-.encabezado{
-    background-image: url(../imgs/guesteaus.png);
-    background-size: cover;
-    color: #5a3e36;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 
+div.encabezado {
+    background-image: url("../imgs/guesteaus.png");
+    background-position: 80% 180%;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    text-align: center;
+    height: 200px;
+}
+
+div.menu ul li a{
+    background-color: #a77e58;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+div.contenido{
+    background-color: #fff8f0;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+}
+
+div.sidebar{
+    background-color: #ecdcc6;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+}
+
+div.pie{
+    background-color: #a77e58;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
